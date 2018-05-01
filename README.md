@@ -13,6 +13,6 @@ after script
     "tsc:W":"tsc-w",
     "lite-server":"lite-server"
 
-    "start": "tsc && concurrently\"tsc:w\"\"lite-server\"",
+    "start": "tsc && concurrently \"npm run tsc:w\" \"lite-server\"",
 
     //npm install concurrently lite-server
