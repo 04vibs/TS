@@ -4,7 +4,6 @@ function writeable(value:boolean){
 
         console.log(target);
         console.log(name);
-
         descriptor.writeable=value;
     }
 }
