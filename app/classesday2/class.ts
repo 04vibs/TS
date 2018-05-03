@@ -2,7 +2,6 @@
 
 class Person{
     name:string;
-
     constructor(name:string)
     {
         this.name=name;
@@ -16,23 +15,22 @@ console.log(Person1);
 class shoppingcart{
     items:string[]=[];
 
-    // constructor(items:string[])
-    // {
-    //     this.items=[];
-    // }
-
-
     buy(item:string)
     {
         this.items.push(item);
+        console.log(this.items);
     }
     
 }
 
 let mobile=new shoppingcart();
 mobile.buy('mobilePhone');
+mobile.buy("tcvvv");
+
+console.log(mobile.items);
 let tv=new shoppingcart();
 console.log(tv.items);
+
 
 
 

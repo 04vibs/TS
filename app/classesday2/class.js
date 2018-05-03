@@ -12,17 +12,16 @@ var shoppingcart = /** @class */ (function () {
     function shoppingcart() {
         this.items = [];
     }
-    // constructor(items:string[])
-    // {
-    //     this.items=[];
-    // }
     shoppingcart.prototype.buy = function (item) {
         this.items.push(item);
+        console.log(this.items);
     };
     return shoppingcart;
 }());
 var mobile = new shoppingcart();
 mobile.buy('mobilePhone');
+mobile.buy("tcvvv");
+console.log(mobile.items);
 var tv = new shoppingcart();
 console.log(tv.items);
 //# sourceMappingURL=class.js.map
