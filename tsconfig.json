@@ -3,9 +3,9 @@
     /* Basic Options */
     "target": "es5",                          /* Specify ECMAScript target version: 'ES3' (default), 'ES5', 'ES2015', 'ES2016', 'ES2017','ES2018' or 'ESNEXT'. */
     "module": "commonjs",    
-    "exclude": ["./typings",
-                "./node_modules"
-              ],
+    
+
+              
     "lib":["es2015","dom"],
     "sourceMap": true,
     "moduleResolution": "node",
@@ -68,5 +68,9 @@
     /* Experimental Options */
     // "experimentalDecorators": true,        /* Enables experimental support for ES7 decorators. */
     // "emitDecoratorMetadata": true,         /* Enables experimental support for emitting type metadata for decorators. */
-  }
+  },
+
+  "exclude": ["./typings",
+                "./node_modules"
+              ],
 }
