@@ -25,14 +25,4 @@ var mobile = new shoppingcart();
 mobile.buy('mobilePhone');
 var tv = new shoppingcart();
 console.log(tv.items);
-//prototypes -access the same array rather than creating new memory
-function todoList() {
-}
-todoList.prototype = {
-    items: []
-};
-var todo1 = new todoList();
-todo1.items.push("homework");
-var todo2 = new todoList();
-console.log(todo2.items);
 //# sourceMappingURL=class.js.map
